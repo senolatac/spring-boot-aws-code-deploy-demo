@@ -1,6 +1,6 @@
 # spring-boot-aws-code-deploy-demo
 
-#### Install the CodeDeploy agent for Amazon Linux or RHEL
+##### Install the CodeDeploy agent for Amazon Linux or RHEL
 ```
 #!/bin/bash
 sudo yum update
