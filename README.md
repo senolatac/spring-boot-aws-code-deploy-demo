@@ -1,6 +1,6 @@
 # spring-boot-aws-code-deploy-demo
 
-##### Install the CodeDeploy agent for Amazon Linux or RHEL
+#### Install the CodeDeploy agent for Amazon Linux or RHEL
 ```
 #!/bin/bash
 sudo yum update
@@ -13,4 +13,11 @@ sudo ./install auto
 sudo yum install -y python-pip
 sudo pip install awscli
 sudo amazon-linux-extras install java-openjdk11
+```
+
+#### CodePipeline
+```
+1. Fetch data from github
+2. CodeBuild with linux machine
+3. CodeDeploy to EC2Instance
 ```
