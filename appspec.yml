@@ -15,7 +15,7 @@ hooks:
   BeforeInstall:
     - location: server_clear.sh
       timeout: 300
-      runas: root
+      runas: ec2-user
   AfterInstall:
     - location: fix_previleges.sh
       timeout: 300
