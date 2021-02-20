@@ -21,3 +21,5 @@ sudo amazon-linux-extras install java-openjdk11
 2. CodeBuild with linux machine
 3. CodeDeploy to EC2Instance
 ```
+
+You can find more details from: https://youtu.be/TSnlRNuKQ-s
